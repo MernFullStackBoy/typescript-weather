@@ -1,6 +1,6 @@
 function Card(props: any) {
     return (
-        <div className=" w-[350px] flex flex-col items-center h-[350px] bg-[#242424] mx-auto rounded-[30px] p-[20px] mt-[60px] ">
+        <div className=" max-w-[350px] flex flex-col items-center h-[350px] bg-[#242424] mx-auto rounded-[30px] p-[20px] mt-[60px] ">
             <h1 className=" text-white text-[30px] font-semibold ">{props.city}, {props.country}</h1>
             <div className=" flex items-center ">
                 <img src={props.href} alt="Icon" />
